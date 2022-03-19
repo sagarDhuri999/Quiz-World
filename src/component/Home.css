@@ -1,0 +1,54 @@
+.content {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .settings {
+    width: 45%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+  }
+  
+  .banner {
+    width: 45%;
+    align-self: center;
+    padding: 8px;
+    height: 65rem;
+  }
+  .settingSelect{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+  
+  
+  @media (max-width: 800px) {
+    .content {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+    .banner {
+      width:70%;
+      padding: 0;
+      padding-top: 20px;
+      height:auto;
+    }
+    .settings {
+      width: 100%;
+      align-items: center;
+    }
+  }
+  
+  .settings__select {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    flex: 0.8;
+    justify-content: space-evenly;
+  }
+

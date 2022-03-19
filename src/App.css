@@ -1,0 +1,35 @@
+html{
+    font-size: 62.5%;
+}
+@media (max-width:998px) {
+    html{
+        font-size: 55%;
+    }
+}
+@media (max-width:768px) {
+    html{
+        font-size: 45%;
+    }
+}
+body{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-image:linear-gradient(to right,#642b73,#c6426e);
+color: rgba(211, 175, 175, 0.993);
+;
+    
+}
+*::-webkit-scrollbar {
+    width: 0.8rem;
+    background-color: rgb(102, 11, 105);
+  }
+a{
+    text-decoration: inherit;
+    color: inherit;
+}
+.app{
+    min-height: 98.5vh;
+}

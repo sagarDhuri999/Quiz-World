@@ -1,0 +1,19 @@
+.title{
+    text-transform: uppercase;
+    font-size: 8vw;
+    cursor: pointer;
+    color: rgba(255, 220, 220, 0.993);
+    text-align: center;
+    justify-content: center;
+    font-family:  Courier, monospace;
+    
+}
+.Header{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 2em;
+
+
+}
+.title:hover {color:white;}
